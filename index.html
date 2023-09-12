@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Elite-Movies</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<header>
+<div>
+  <div id="brand" class="flex">
+    <div class="flex-child">
+      <a href="javascript:void(0);" class="topnav-icon" onclick="toggleNav()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <div class="flex-child">
+      <h1><span class="highlight">Elite</span>-Movies</h1>
+    </div>
+  </div>
+  <div class="topnav" id="myTopnav">
+      <div class = "search-container">
+            <div class = "search-element">
+                <h3>Search All Movies:</h3>
+                <input type = "text" class = "form-control" placeholder="Search Movie Title ..." id = "movie-search-box" onkeyup="findMovies()" onclick = "findMovies()">
+
+                <div class = "search-list" id = "search-list">
+          
+                </div>
+            </div>
+        </div>
+        <div class = "container">
+            <div class = "result-container">
+                <div class = "result-grid" id = "result-grid">
+              
+                </div>
+            </div>
+        </div>
+    </div>
+
+  </div>
+</div>
+</header>
+
+<section>
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 5</div>
+    <img src="images/spi.jpg" style="width:100%; height: 550px;">
+    <div class="content">
+    <h1>View more on Tv</h1>
+    <a href = "#">Click here to watch movie...</a></div>
+  </div>
+
+
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 5</div>
+    <img src="images/tm1.jpg" style="width:100%; height: 550px; ">
+  <div class="content">
+    <h1>View more on shoes </h1>
+    <a href= "#">Click here to watch movie...</a></div>
+  </div>
+
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 5</div>
+    <img src="images/SHA.jpg" style="width:100%; height: 555px;">
+     <div class="content">
+    <h1>View more on playstation</h1>
+    <a href="#">Click here to watch movie...</a></div>
+  </div>
+
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 5</div>
+    <img src="images/ga.jpg" style="width:100%; height: 555px;">
+     <div class="content">
+    <h1>View more on Apple products</h1>
+    <a href="#">Click here to watch movie...</a></div>
+  </div>
+
+
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 5</div>
+    <img src="images/fas.jpg" style="width:100%; height: 555px;">
+     <div class="content">
+    <h1>View more on accesories</h1>
+    <a href="#">Click here to watch movie...</a></div>
+  </div>
+</div>
+</section>
+
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+   <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+</div>
+
+<section id="boxes">
+<div class="container"> 
+<div class = "box">
+  <img src="images/game.jpg" width="176px" height="190px" style="border-radius: 10px 10px 0 0;">
+  <h3>PS4 game pad</h3>
+  <h4>#10,000</h4>
+<a href="contact.html"><button>Sign up/ login</button></a>
+  
+</div>
+
+<div class = "box">
+  <img src="images/mad.jpg" width="176px" height="190px" style="border-radius: 10px 10px 0 0;">
+  <h3 style="font-size: 16px;">Mad-Max Road Fury</h3>
+  <h4 style="font-style: italic; font-size: 13px; margin: 4px;">2015</h4>
+ <a href="contact.html"><button>Sign up/ login</button></a>
+  
+</div>
+
+<div class = "box">
+  <img src="images/thor.jpg" width="176px" height="190px" style="border-radius: 10px 10px 0 0;">
+  <h3 style="font-size: 16px;">Hp laptop 256 Ra..</h3>
+  <h4 style="font-style: italic; font-size: 13px; margin: 4px;">2022</h4>
+<a href="contact.html"><button>Sign up/ login</button></a>
+  
+</div>
+
+<div class = "box">
+  <img src="images/plasma.jpg" width="176px" height="190px" style="border-radius: 10px 10px 0 0;">
+  <h3>4k smart wifi An..</h3>
+  <h4>#150,000</h4>
+  <a href="contact.html"><button>Sign up/ login</button></a>
+  
+</div>
+
+</div>
+
+</section>
+
+
+
+
+<section>
+  <footer>
+    <p style="background-color: black; margin: 0; padding: 20px; color: yellow; text-align: center;">Copyright & copy; All rights reserved</p>
+  </footer>
+</section>
+ 
+<script src="script.js">
+</script>
+
+</body>
+</html>
+
