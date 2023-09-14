@@ -478,3 +478,12 @@ img{
         margin-left: 0;
     }
 }
+ button{
+  padding: 10px;
+  border-radius: 4.5px;
+  width: 176px;
+  font-size: 17px;
+  background-color: black;
+  color: yellow;
+  cursor: pointer;
+ }
